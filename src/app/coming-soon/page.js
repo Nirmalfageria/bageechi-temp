@@ -49,8 +49,8 @@ export default function ComingSoon() {
         <Image
           src="/qr.jpeg"
           alt="Instagram QR"
-          width={290}
-          height={100}
+          width={250}
+          height={50}
           className="rounded"
         />
         <p className="mt-2 text-sm text-gray-600 font-medium">@bageechi.in</p>
