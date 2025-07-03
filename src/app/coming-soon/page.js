@@ -83,24 +83,26 @@ export default function ComingSoon() {
         transition={{ delay: 1.1 }}
         className="relative w-full max-w-md md:max-w-xl lg:max-w-2xl h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-xl border border-gray-200 bg-white"
       >
-        <iframe
-          src="https://maps.google.com/maps?q=27.654611,75.178111&z=16&output=embed"
-          width="100%"
-          height="100%"
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className="w-full h-full rounded-xl"
-        ></iframe>
+     <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.0308895029107!2d75.1779635!3d27.654516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396cbbe26dc33565%3A0x21394ac759467!2sBageechi%20Plant%20Nursery!5e0!3m2!1sen!2sin!4v1751564653869!5m2!1sen!2sin"
+  width="100%"
+  height="100%"
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="w-full h-full rounded-xl"
+/>
+
         {/* Overlay "View Map" button */}
-        <a
-          href="https://maps.google.com/?q=27.654611,75.178111"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute bottom-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full shadow hover:bg-green-700 transition"
-        >
-          View Map
-        </a>
+       <a
+  href="https://www.google.com/maps/place/Bageechi+Plant+Nursery/@27.6547209,75.1778988,20.12z/data=!4m7!3m6!1s0x396cbbe26dc33565:0x21394ac759467!4b1!8m2!3d27.654516!4d75.1779635!16s%2Fg%2F11xmrfgs5h?entry=ttu"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute bottom-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full shadow hover:bg-green-700 transition"
+>
+  View Map
+</a>
+
       </motion.div>
 
       {/* Footer with Address */}
